@@ -27,6 +27,18 @@ else{
     console.log("the year is not leap")
 }
 
+// Task 3
+function gettingS(a,b,c){
+    var s = (a+b+c) / 2;
+    return s;
+}
+
+function area(s,a,b,c)
+{
+    var area = s*(s-a)*(s-b)*(s-c)
+    console.log("Area is: "+area)
+}
+area(gettingS(5,4,6),5,4,6);
 
 
 // Task 4
