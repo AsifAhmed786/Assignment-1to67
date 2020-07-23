@@ -6,7 +6,7 @@ var maincontent = document.getElementById("main-content");
 
 // section ii
 // c
-// console.log(maincontent.children)
+console.log(maincontent.children)
 // console.log(maincontent.childNodes)
 
 
